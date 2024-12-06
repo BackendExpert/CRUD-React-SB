@@ -10,6 +10,8 @@ import com.example.mycrud.model.Item;
 // JPARepo in Springbootframeowk
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public class ItemRepository {
-    
+// Item: Specifies the entity class this repository manages.
+// Long: Specifies the type of the primary key in the Item entity
+
+public interface ItemRepository extends JpaRepository<Item, Long> {
 }

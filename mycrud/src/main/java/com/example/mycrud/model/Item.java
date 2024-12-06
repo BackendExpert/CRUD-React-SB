@@ -2,7 +2,6 @@ package com.example.mycrud.model;
 
 // help mapping Java objects to relational database tables.
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
